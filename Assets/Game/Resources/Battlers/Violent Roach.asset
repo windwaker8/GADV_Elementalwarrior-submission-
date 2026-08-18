@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93cc912aa009a34a90e152426d143aa, type: 3}
+  m_Name: Violent Roach
+  m_EditorClassIdentifier: Assembly-CSharp::Character
+  name: Violent Roach
+  sprite: {fileID: 7419672617943933147, guid: fb99584164d801445b8cd591961d00a2, type: 3}
+  weakness: 2
+  MaxHP: 13
+  MaxPP: 0
+  Atk: 3
+  Def: 6
+  Skill: 2
+  IQ: 5
+  Speed: 3
+  AtkGrowth: 0
+  DefGrowth: 0
+  SkillGrowth: 0
+  IQGrowth: 0
+  SpeedGrowth: 0
+  HPGrowth: 0
+  PPGrowth: 0
+  ExpYield: 5
+  isPlayerCharacter: 0
+  moveSet:
+  - moveBase: {fileID: 11400000, guid: d578937ed3808034a8956f24b29a8c20, type: 2}
+    level: 0
