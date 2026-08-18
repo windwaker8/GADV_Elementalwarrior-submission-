@@ -182,8 +182,7 @@ public class BattleSystem : MonoBehaviour
     }
 
     // Shows the player-defeat message, then ends the game. Does not fire
-    // OnBattleOver — a loss isn't a "battle over, resume overworld"
-    // outcome, it's a full game-over.
+    // OnBattleOver
     IEnumerator HandlePlayerDefeated()
     {
         state = BattleState.PerformMove;
@@ -195,8 +194,7 @@ public class BattleSystem : MonoBehaviour
     }
 
     // Ends the play session on defeat: stops Play Mode in the Editor, or quits the
-    // built executable in a real build. Mirrors the same pattern used by ExitStairs,
-    // since Application.Quit has no effect in the Editor.
+    // built executable in a real build.
     private void EndGame()
     {
 #if UNITY_EDITOR
