@@ -22,7 +22,7 @@ MonoBehaviour:
   Skill: 3
   IQ: 2
   Speed: 2
-  AtkGrowth: 4
+  AtkGrowth: 2
   DefGrowth: 2
   SkillGrowth: 3
   IQGrowth: 3
